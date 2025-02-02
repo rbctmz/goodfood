@@ -1,7 +1,12 @@
-fastapi
-uvicorn
-sqlalchemy
-streamlit
-openai
-python-dotenv
-requests
+# Основные зависимости
+fastapi>=0.68.0
+uvicorn>=0.15.0
+sqlalchemy>=1.4.0
+python-dotenv>=0.19.0
+httpx>=0.23.0
+
+# Тестовые зависимости
+pytest>=7.0.0
+pytest-cov>=4.0.0
+pytest-asyncio>=0.21.0
+pytest-aiohttp>=1.0.4
